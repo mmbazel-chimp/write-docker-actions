@@ -10,3 +10,7 @@ jobs:
 
       - name: "hello-action"
         uses: ./.github/actions/hello-world
+        with: 
+          firstGreeting: "Mary had a little lamb"
+          secondGreeting: "With fleece as white as snow"
+          thirdGreeting: "Tra-la-la-la-la"
